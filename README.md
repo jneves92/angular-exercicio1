@@ -11,7 +11,7 @@ Parent:
 
 Child:
 - Deve mostrar a string do elemento enviado pelo `app-parent`;
-- O elemento no index par deve aplicar como background a cor `#E8DEF8` já existente na class `.odd`;
+- O elemento no index impar deve aplicar como background a cor `#E8DEF8` já existente na class `.odd`;
 
 Cenário lista vazia:
 - No cenário em que o `app-root` envia uma lista vazia deve ser criado deve ser mantido todo o comportamento definido anteriormente. No entanto deve ser criado um `app-child` com o valor `No items`
